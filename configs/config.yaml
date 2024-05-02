@@ -1,0 +1,3 @@
+input_dir: 'metadata'
+snp_dir: 'output/merge/snps'
+output_dir: 'output/Signature_SNVs'

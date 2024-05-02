@@ -1,0 +1,31 @@
+#vim: syntax=python expandtab ts=4
+#Config file for MIDAS2-Signature-FEAST
+
+###############
+# configuration
+###############
+inputdir: "input"
+input_fn_pattern: "{sample}_{readpair}.fq.gz"
+
+#####################
+# species input file
+#####################
+species_list_file: "species_list.tsv"
+
+##############################
+# merge_species rule parameter
+##############################
+MIN_COV: 2
+
+#######################
+# FEAST rule parameters
+#######################
+START_INDEX: 0
+END_INDEX: 10000
+MIN_READS: 5
+
+###############
+# run_snps rule
+###############
+select_by: "median_marker_coverage,unique_fraction_covered" 
+
