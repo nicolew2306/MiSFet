@@ -3,9 +3,9 @@ Readme.
 
 The order of the pipeline is MIDAS2 -> Signature -> FEAST
 
-You, dear user, need to prepare several files. Initially, you need to prepare a file named “species_list.tsv” which will need to contain the MIDAS2 code of the species, which can be found in the metadata file that comes when downloading the database, which I can now see can be a problem if you’re running this a first time. But don’t fret, Bourbon has your back. I will put the metadata file from Midas2 in the repo so you can find the species codes that you need. 
+You need to prepare several files. Initially, you need to prepare a file named “species_list.tsv” which will need to contain the MIDAS2 code of the species, which can be found in the metadata file that comes when downloading the database, which I can now see can be a problem if you’re running this a first time. But don’t fret, Bourbon has your back. I will put the metadata file from Midas2 in the repo so you can find the species codes that you need. 
 
-Ok, where was I? Oh, yes, your “species_list.tsv” file. Make sure that there is one species per line and save as that name and put it in the initial folder where the Snakfile is. 
+Your “species_list.tsv” file. Make sure that there is one species per line and save as that name and put it in the initial folder where the Snakfile is. 
 
 Next file you need to provide, is the sink_source.csv file that Signature uses. I will put an example of that in the repo, and please place that in the metadata folder where there will be an example of this wonderful file.
 
