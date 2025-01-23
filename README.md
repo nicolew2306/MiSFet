@@ -15,7 +15,7 @@ Now, you need, pair end reads but based on what they called, make sure to modify
 
 Speaking of the config file, there are other parameters there that you can set and change as you desire. So, change away to your heart’s desire, for that is what I am here for.
 
-Ok, let’s start with the first step MIDAS2. Yes this uses Midas. Step by step. You start by building your initial general marker database, and you detect your species and then merge them here. Why merge species, fuck if I know, but MIDAS2 website says to do it so we do it.
+Ok, let’s start with the first step MIDAS2. Yes this uses Midas. Step by step. You start by building your initial general marker database, and you detect your species and then merge them here. Why merge species, heck if I know, but MIDAS2 website says to do it so we do it.
 
 Ok, next, now here is where that species_list.tsv that you prepared with such hardship comes into play. We want to grab the marker that are specific to that species. Now, how MIDAS2 picks saps based on a marker genome is fun shit and we can talk about this later in detail, if you, dear user, are terribly interested because this is a terribly uninteresting discourse.
 
@@ -23,7 +23,7 @@ Afterwards, with these and improved and complete specific marker we go ahead to 
 
 Ok, so, next. Now, you see, not all of species are going to merge, species in your file that is because they need to be in at least two samples to merge, otherwise bye bye and the pipeline fails. Fun times. Yes, fun times.
 
-So, now it has all your merged species and here is where MIDAS2 bids you adieu and we move on to Signature. Fucking Signature, yes. Signature pretty much takes the output from these. But wait, almost forgot, we need some name changing and unzipping and rezipping before we do this. How do we do this? Well, you don’t need to worry your pretty little heart, cause I do it for you. So, that sink_source.csv file that you used. Remember, your final file needs to be called sink_source.csv and be in the metadata folder. There is an example there currently.
+So, now it has all your merged species and here is where MIDAS2 bids you adieu and we move on to Signature. Signature, yes. Signature pretty much takes the output from these. But wait, almost forgot, we need some name changing and unzipping and rezipping before we do this. How do we do this? Well, you don’t need to worry your pretty little heart, cause I do it for you. So, that sink_source.csv file that you used. Remember, your final file needs to be called sink_source.csv and be in the metadata folder. There is an example there currently.
 
 So, Signature is just a python script with a bunch of variables that you can specify in the config file. Though depending on the size of your files and the variables you choose, it could take varying amounts of time.
 
