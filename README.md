@@ -1,5 +1,5 @@
 # MiSFet
-Readme.
+Readme!
 
 The order of the pipeline is MIDAS2 -> Signature -> FEAST
 
